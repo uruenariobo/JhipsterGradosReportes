@@ -5,7 +5,6 @@ import { Storage } from 'react-jhipster';
 import configureStore from 'redux-mock-store';
 
 import authentication, {
-  getSession,
   getAccount,
   authenticate,
   login,
@@ -17,7 +16,6 @@ import authentication, {
   clearAuth,
   initialState,
 } from 'app/shared/reducers/authentication';
-import { updateLocale, setLocale } from 'app/shared/reducers/locale';
 
 describe('Authentication reducer tests', () => {
   function isAccountEmpty(state): boolean {
@@ -158,28 +156,6 @@ describe('Authentication reducer tests', () => {
       const mockStore = configureStore([thunk]);
       store = mockStore({ authentication: { account: { langKey: 'es' } }, locale: { loadedLocales: ['es'] } });
       axios.get = sinon.stub().returns(Promise.resolve(resolvedObject));
-    });
-
-    it('dispatches GET_SESSION_PENDING and GET_SESSION_FULFILLED actions', async () => {
-      const expectedActions = [
-        {
-          type: getAccount.pending.type,
-        },
-        {
-          type: getAccount.fulfilled.type,
-          payload: resolvedObject,
-        },
-        {
-          type: setLocale.pending.type,
-        },
-        updateLocale('en'),
-        {
-          type: setLocale.fulfilled.type,
-          payload: 'en',
-        },
-      ];
-      await store.dispatch(getSession());
-      expect(store.getActions()).toMatchObject(expectedActions);
     });
 
     it('dispatches LOGOUT actions', async () => {

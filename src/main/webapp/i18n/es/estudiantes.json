@@ -1,0 +1,26 @@
+{
+  "gradosApp": {
+    "estudiantes": {
+      "home": {
+        "title": "Estudiantes",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Estudiantes",
+        "createOrEditLabel": "Crear o editar Estudiantes",
+        "notFound": "Ningún Estudiantes encontrado"
+      },
+      "created": "Un nuevo Estudiantes ha sido creado con el identificador {{ param }}",
+      "updated": "Un Estudiantes ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Estudiantes ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Estudiantes {{ id }}?"
+      },
+      "detail": {
+        "title": "Estudiantes"
+      },
+      "id": "ID",
+      "nombreestudiante": "Nombreestudiante",
+      "email": "Email",
+      "telefono": "Telefono"
+    }
+  }
+}

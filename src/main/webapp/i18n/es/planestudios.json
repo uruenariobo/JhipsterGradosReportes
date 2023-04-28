@@ -1,0 +1,25 @@
+{
+  "gradosApp": {
+    "planestudios": {
+      "home": {
+        "title": "Planestudios",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Planestudios",
+        "createOrEditLabel": "Crear o editar Planestudios",
+        "notFound": "Ningún Planestudios encontrado"
+      },
+      "created": "Un nuevo Planestudios ha sido creado con el identificador {{ param }}",
+      "updated": "Un Planestudios ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Planestudios ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Planestudios {{ id }}?"
+      },
+      "detail": {
+        "title": "Planestudios"
+      },
+      "id": "ID",
+      "programaid": "Programaid",
+      "facultadid": "Facultadid"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "gradosApp": {
+    "ceremoniagrados": {
+      "home": {
+        "title": "Ceremoniagrados",
+        "refreshListLabel": "Refrescar lista",
+        "createLabel": "Crear nuevo Ceremoniagrados",
+        "createOrEditLabel": "Crear o editar Ceremoniagrados",
+        "notFound": "Ningún Ceremoniagrados encontrado"
+      },
+      "created": "Un nuevo Ceremoniagrados ha sido creado con el identificador {{ param }}",
+      "updated": "Un Ceremoniagrados ha sido actualizado con el identificador {{ param }}",
+      "deleted": "Un Ceremoniagrados ha sido eliminado con el identificador {{ param }}",
+      "delete": {
+        "question": "¿Seguro que quiere eliminar Ceremoniagrados {{ id }}?"
+      },
+      "detail": {
+        "title": "Ceremoniagrados"
+      },
+      "id": "ID",
+      "fechaceremonia": "Fechaceremonia",
+      "limiteinscripcion": "Limiteinscripcion",
+      "lugar": "Lugar"
+    }
+  }
+}

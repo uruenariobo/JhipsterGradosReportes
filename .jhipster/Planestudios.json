@@ -1,0 +1,24 @@
+{
+  "changelogDate": "20230427043441",
+  "dto": "no",
+  "fields": [
+    {
+      "fieldName": "programaid",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "max"],
+      "fieldValidateRulesMax": "300"
+    },
+    {
+      "fieldName": "facultadid",
+      "fieldType": "Integer",
+      "fieldValidateRules": ["required", "max"],
+      "fieldValidateRulesMax": "100"
+    }
+  ],
+  "jpaMetamodelFiltering": false,
+  "name": "Planestudios",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

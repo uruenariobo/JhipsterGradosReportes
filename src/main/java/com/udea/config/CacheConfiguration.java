@@ -48,6 +48,9 @@ public class CacheConfiguration {
             createCache(cm, com.udea.domain.User.class.getName());
             createCache(cm, com.udea.domain.Authority.class.getName());
             createCache(cm, com.udea.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.udea.domain.Estudiantes.class.getName());
+            createCache(cm, com.udea.domain.Ceremoniagrados.class.getName());
+            createCache(cm, com.udea.domain.Planestudios.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
